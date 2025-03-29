@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Reviews</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        button { padding: 10px 20px; margin: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h1>Random Reviews</h1>
+    <p id="review">Loading...</p>
+    <button onclick="copyReview()">Copy Review</button>
+    <button onclick="postReview()">Post Review</button>
+
+    <script>
+        let currentReview = "";
+
+        async function fetchReview() {
+            try {
+                const response = await fetch('http://localhost:3000/get-review');
+                const data = await response.json();
+                document.getElementById("review").innerText = data.review;
+                currentReview = data.review;
+            } catch (error) {
+                document.getElementById("review").innerText = "Error fetching review.";
+            }
+        }
+
+        function copyReview() {
+            if (currentReview) {
+                navigator.clipboard.writeText(currentReview);
+                alert("Review copied!");
+                fetchReview();  // Fetch a new review after copying
+            }
+        }
+
+        function postReview() {
+            window.open("https://g.page/r/CTHHTr7Or5nhEBE/review", "_blank");
+        }
+
+        fetchReview(); // Load a review on page load
+    </script>
+
+</body>
+</html>
