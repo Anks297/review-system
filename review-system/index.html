@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dental Review System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background: #f4f4f4;
+      text-align: center;
+    }
+    #review {
+      font-size: 20px;
+      margin: 30px auto;
+      max-width: 700px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    button {
+      font-size: 16px;
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    #copyBtn {
+      background-color: #007BFF;
+      color: white;
+    }
+    #pasteBtn {
+      background-color: #28A745;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Dental Review Generator</h1>
+  <div id="review">Click "Copy & Delete" to get a review.</div>
+
+  <button id="copyBtn">Copy & Delete</button>
+  <button id="pasteBtn">Paste</button>
+
+  <script>
+    const reviewBox = document.getElementById('review');
+    const copyBtn = document.getElementById('copyBtn');
+    const pasteBtn = document.getElementById('pasteBtn');
+
+    async function fetchReview() {
+      const res = await fetch('/get-review');
+      const data = await res.json();
+      reviewBox.textContent = data.review || "No reviews left!";
+      return data.review;
+    }
+
+    copyBtn.onclick = async () => {
+      const review = await fetchReview();
+      if (review && review !== "No reviews left!") {
+        try {
+          await navigator.clipboard.writeText(review);
+          alert("Review copied!");
+        } catch (err) {
+          alert("Failed to copy review.");
+        }
+      }
+    };
+
+    pasteBtn.onclick = () => {
+      window.open("https://g.page/r/CTHHTr7Or5nhEBE/review", "_blank");
+    };
+  </script>
+
+</body>
+</html>
