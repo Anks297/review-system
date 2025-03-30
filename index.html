@@ -20,8 +20,12 @@
             let reviewText = document.getElementById("review-text").innerText;
             navigator.clipboard.writeText(reviewText).then(() => {
                 alert("Review copied!");
-                fetchReview(); // Load new review after copying
+                fetchReview(); // Load a new review after copying
             }).catch(err => console.error("Copy failed", err));
+        }
+
+        function postReview() {
+            window.open("https://g.page/r/CTHHTr7Or5nhEBE/review", "_blank");
         }
 
         window.onload = fetchReview;
@@ -31,5 +35,6 @@
     <h1>Review System</h1>
     <p id="review-text">Loading...</p>
     <button onclick="copyReview()">Copy Review</button>
+    <button onclick="postReview()">Post Review</button>
 </body>
 </html>
