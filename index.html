@@ -18,15 +18,29 @@
 
     <script>
         let currentReview = "";
-
-        async function fetchReview() {
+             async function fetchReview() {
     try {
-        let response = await fetch("https://review-system-r4pq.onrender.com/get-review");
+        let response = await fetch("https://review-system-r4pq.onrender.com/get-review", {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
         let data = await response.json();
-        document.getElementById("review-text").innerText = data.review;
+        if (data.review) {
+            document.getElementById("review-text").innerText = data.review;
+        } else {
+            document.getElementById("review-text").innerText = "No reviews left!";
+        }
     } catch (error) {
         document.getElementById("review-text").innerText = "Error fetching review!";
-        console.error("Error:", error);
+        console.error("Fetch error:", error);
     }
 }
 
