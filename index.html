@@ -20,15 +20,15 @@
         let currentReview = "";
 
         async function fetchReview() {
-            try {
-                const response = await fetch('http://localhost:3000/get-review');
-                const data = await response.json();
-                document.getElementById("review").innerText = data.review;
-                currentReview = data.review;
-            } catch (error) {
-                document.getElementById("review").innerText = "Error fetching review.";
-            }
-        }
+    try {
+        let response = await fetch("https://review-system-r4pq.onrender.com/get-review");
+        let data = await response.json();
+        document.getElementById("review-text").innerText = data.review;
+    } catch (error) {
+        document.getElementById("review-text").innerText = "Error fetching review!";
+        console.error("Error:", error);
+    }
+}
 
         function copyReview() {
             if (currentReview) {
