@@ -1,13 +1,17 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
 
-// Array of 200+ reviews with dental keywords
+// Serve static files (to load index.html properly)
+app.use(express.static(__dirname));
+
+// Array of 200+ reviews
 let reviews = [
     "Got my smile designed here. Truly the best dental clinic in Amritsar!",
     "Very professional service. My dental implant feels just like a real tooth!",
@@ -41,6 +45,7 @@ let reviews = [
     "Doctor's expertise is unmatched. Best dentist in Amritsar!"
 ];
 
+// API to get a review
 app.get('/get-review', (req, res) => {
     if (reviews.length === 0) {
         return res.json({ review: "No reviews left!" });
@@ -52,6 +57,11 @@ app.get('/get-review', (req, res) => {
     reviews.splice(randomIndex, 1);
 
     res.json({ review: selectedReview });
+});
+
+// Serve index.html when visiting "/"
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(PORT, () => {
