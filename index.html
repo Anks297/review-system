@@ -3,61 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Reviews</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
-        button { padding: 10px 20px; margin: 10px; cursor: pointer; }
-    </style>
-</head>
-<body>
-
-    <h1>Random Reviews</h1>
-    <p id="review">Loading...</p>
-    <button onclick="copyReview()">Copy Review</button>
-    <button onclick="postReview()">Post Review</button>
-
+    <title>Review System</title>
     <script>
-        let currentReview = "";
-             async function fetchReview() {
-    try {
-        let response = await fetch("https://review-system-r4pq.onrender.com/get-review", {
-            method: "GET",
-            headers: {
-                "Accept": "application/json",
-                "Content-Type": "application/json"
+        async function fetchReview() {
+            try {
+                let response = await fetch("https://review-system-r4pq.onrender.com/get-review");
+                let data = await response.json();
+                document.getElementById("review-text").innerText = data.review;
+            } catch (error) {
+                document.getElementById("review-text").innerText = "Error fetching review!";
+                console.error("Error:", error);
             }
-        });
-
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
         }
-
-        let data = await response.json();
-        if (data.review) {
-            document.getElementById("review-text").innerText = data.review;
-        } else {
-            document.getElementById("review-text").innerText = "No reviews left!";
-        }
-    } catch (error) {
-        document.getElementById("review-text").innerText = "Error fetching review!";
-        console.error("Fetch error:", error);
-    }
-}
 
         function copyReview() {
-            if (currentReview) {
-                navigator.clipboard.writeText(currentReview);
+            let reviewText = document.getElementById("review-text").innerText;
+            navigator.clipboard.writeText(reviewText).then(() => {
                 alert("Review copied!");
-                fetchReview();  // Fetch a new review after copying
-            }
+                fetchReview(); // Load new review after copying
+            }).catch(err => console.error("Copy failed", err));
         }
 
-        function postReview() {
-            window.open("https://g.page/r/CTHHTr7Or5nhEBE/review", "_blank");
-        }
-
-        fetchReview(); // Load a review on page load
+        window.onload = fetchReview;
     </script>
-
+</head>
+<body>
+    <h1>Review System</h1>
+    <p id="review-text">Loading...</p>
+    <button onclick="copyReview()">Copy Review</button>
 </body>
 </html>
