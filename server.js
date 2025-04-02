@@ -8,10 +8,16 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 app.use((req, res, next) => {
+
+
   res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
-  res.header("Access-Control-Allow-Headers", "Origin, Content-Type, Accept");
-  next();
+
+  res.header("Access-Control-Allow-Methods",
+  "GET, POST, OPTIONS");
+
+  res.header("Access-Control-Allow-Headers",
+  "Origin, Content-Type, Accept");
+   next();
 });
 app.use(express.static(__dirname));
 
@@ -66,7 +72,6 @@ let reviews = [
   "Appreciated how they handled my child’s dental phobia.",
   "Filling work was seamless. Tooth looks natural.",
   "Top choice for NRI dental care in Amritsar.",
-  "Zirconia crowns placed perfectly. No discomfort at all.",
   "Flexible scheduling and minimum wait time. Loved it.",
   "Clinic was clean, staff was polite, service was quick.",
   "I love how natural my veneers look now!",
@@ -77,37 +82,23 @@ let reviews = [
   "Braces were removed today. Couldn’t be happier!",
   "Referred by a friend. Now I’m referring others too.",
   "Five-star experience. Wouldn’t go anywhere else.",
-  "Implants feel like my original teeth. Thank you!",
   "Got teeth whitening done before my wedding. Perfect!",
   "My parents were treated here. Both are happy!",
   "They helped fix my bite and improve chewing comfort.",
   "Dr. Keshvi handled my entire treatment flawlessly.",
   "Teeth polishing session was relaxing!",
-  "Affordable yet high-quality dental care.",
   "Even the X-ray process was modern and digital.",
-  "Kids section is designed so well. My son loved it.",
-  "Transparent consultations, no hidden costs.",
   "Appreciated the clean and sanitized environment.",
   "Full mouth rehab changed my life for the better.",
   "I’ve tried 3 dentists before—this was the best.",
-  "The post-op instructions were clear and helpful.",
-  "Dr. Ankur is the most gentle dentist I've visited.",
-  "I love my smile again thanks to this clinic!",
-  "They use top-quality material for all dental work.",
-  "Clinic has the latest equipment. Very impressive.",
-  "Staff is trained and courteous. Felt very welcomed.",
-  "Appointment system is super efficient.",
-  "One of the most experienced dental teams in Amritsar.",
-  "Root canal was done in one visit with zero pain.",
-  "They gave me my confidence back!"
-  // Remaining reviews continue in next batch...
 ];
 
 app.get('/get-review', (req, res) => {
   if (reviews.length === 0) {
     return res.json({ review: "No reviews left!" });
   }
-  const randomIndex = Math.floor(Math.random() * reviews.length);
+  const randomIndex = Math.floor(Math.random() *
+   reviews.length);
   const selectedReview = reviews[randomIndex];
   reviews.splice(randomIndex, 1);
   res.json({ review: selectedReview });
@@ -116,7 +107,6 @@ app.get('/get-review', (req, res) => {
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
-
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
