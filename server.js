@@ -32,7 +32,6 @@ let reviews = [
   "The root canal was so smooth, I actually dozed off in the chair! That’s how painless and professional they are. Best dental clinic in Amritsar for endodontic care.",
   "Digital X-rays, intraoral cameras, and detailed consultation — it felt like a premium experience. Best dental clinic in Amritsar, technologically speaking.",
   "My 7-year-old had his first dental visit here. It was smooth and fun. Best dental clinic in Amritsar for pediatric care.",
-  "Had gum reshaping done, and the results are aesthetically pleasing. The doctor has an eye for detail. Best dental clinic in Amritsar for laser treatments.",
   "I wanted Hollywood-style veneers, and the results were spot-on. Great finish, natural look. Best cosmetic dentist in Amritsar.",
   "I am recommending this place to everyone I know. Their dental work speaks for itself. Best dentist in Amritsar for honest service.",
   "My daughter had braces placed by Dr. Ankur, and the journey was fantastic. He explained every stage and made her feel comfortable. Now she smiles confidently, thanks to the best orthodontist in Amritsar.",
