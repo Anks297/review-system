@@ -28,7 +28,6 @@ let reviews = [
   "The Damon braces I received here completely transformed my teeth. My treatment was completed faster than expected, and the discomfort was minimal. I’ve visited clinics in Delhi and Chandigarh too, but the service and results here were unmatched. Best orthodontist in Amritsar!",
   "After years of hesitation, I finally opted for dental implants. The professionalism at this clinic made the entire process smooth. From consultation to final placement, it was all handled with care and precision.",
   "As a Canadian citizen, I expect high standards in healthcare. This clinic met every expectation. Best dental clinic in Amritsar for international patients.",
-  "The root canal was so smooth, I actually dozed off in the chair! That’s how painless and professional they are. Best dental clinic in Amritsar for endodontic care.",
   "Digital X-rays, intraoral cameras, and detailed consultation — it felt like a premium experience. Best dental clinic in Amritsar, technologically speaking.",
   "My 7-year-old had his first dental visit here. It was smooth and fun. Best dental clinic in Amritsar for pediatric care.",
   "I wanted Hollywood-style veneers, and the results were spot-on. Great finish, natural look. Best cosmetic dentist in Amritsar.",
