@@ -24,7 +24,6 @@ app.use(express.static(__dirname));
 let reviews = [
   "The implants done here are indistinguishable from my real teeth. Dr. Keshvi is hands down the best dental implant specialist in Amritsar.",
   "Came here for full dentures for my mother. The fitting was precise, the materials used were high-quality, and the follow-up care was excellent. Best dental clinic in Amritsar for senior citizens.",
-  "The Damon braces I received here completely transformed my teeth. My treatment was completed faster than expected, and the discomfort was minimal. I’ve visited clinics in Delhi and Chandigarh too, but the service and results here were unmatched. Best orthodontist in Amritsar!",
   "After years of hesitation, I finally opted for dental implants. The professionalism at this clinic made the entire process smooth. From consultation to final placement, it was all handled with care and precision.",
   "As a Canadian citizen, I expect high standards in healthcare. This clinic met every expectation. Best dental clinic in Amritsar for international patients.",
   "Digital X-rays, intraoral cameras, and detailed consultation — it felt like a premium experience. Best dental clinic in Amritsar, technologically speaking.",
@@ -41,7 +40,6 @@ let reviews = [
   "The best part was that they respected my time. No unnecessary wait, no delays. Just great dental care. Best dental clinic in Amritsar, period.",
   "The zirconia crowns I received look and feel just like natural teeth. They were perfectly customized, and the fit was flawless. Best decision I made for my dental health.",
   "Underwent a smile designing procedure, and the transformation was incredible. The entire staff made me feel comfortable, and the clinic environment was calming. Easily the best dental clinic for cosmetic procedures in Amritsar.",
-  "Dr. Keshvi is an expert in smile makeovers! She designed my smile exactly how I imagined it. The clinic is well-equipped, and the staff is so welcoming. It truly felt like I was being treated at an international facility. Best dental implant clinic in Amritsar without a doubt.",
   "Came to this clinic from Melbourne for full mouth rehabilitation. From consultation to follow-up, everything was handled with utmost professionalism. My entire treatment was completed in three sittings, and I couldn’t be happier. Truly the best dental implant clinic in Amritsar for NRIs.",
   "I’ve had gum problems for years, and after just three visits, my gums are pink and healthy again. Best dental clinic in Amritsar for gum disease treatment.",
   "I got braces late in life, but never felt out of place here. Great support from the team. Best orthodontist in Amritsar for adult braces.",
