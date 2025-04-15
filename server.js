@@ -33,7 +33,6 @@ let reviews = [
   "Emergency toothache during my Punjab visit led me here. Immediate relief and fantastic care. I now refer to them as the best dentist in Amritsar.",
   "They offer complete transparency in cost and treatment plan. I never felt misled. Best dental clinic in Amritsar for ethical dentistry.",
   "Got my dental implants done by Dr. Keshvi and I couldn’t be happier. From consultation to completion, everything was professional and painless. I highly recommend her to anyone seeking the best dental implant in Amritsar.",
-  "My mom needed dentures, and we were unsure where to go. A friend suggested this clinic, and it was the best recommendation. The dentures fit her perfectly, and she’s finally smiling again. The staff treated her with so much care and patience. Truly the best dental clinic in Amritsar for elderly care.",
   "The zirconia crowns I received look and feel just like natural teeth. They were perfectly customized, and the fit was flawless. Best decision I made for my dental health.",
   "Underwent a smile designing procedure, and the transformation was incredible. The entire staff made me feel comfortable, and the clinic environment was calming. Easily the best dental clinic for cosmetic procedures in Amritsar.",
   "Came to this clinic from Melbourne for full mouth rehabilitation. From consultation to follow-up, everything was handled with utmost professionalism. My entire treatment was completed in three sittings, and I couldn’t be happier. Truly the best dental implant clinic in Amritsar for NRIs.",
