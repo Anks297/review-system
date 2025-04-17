@@ -22,8 +22,6 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname));
 
 let reviews = [
-  "Came here for full dentures for my mother. The fitting was precise, the materials used were high-quality, and the follow-up care was excellent. Best dental clinic in Amritsar for senior citizens.",
-  "After years of hesitation, I finally opted for dental implants. The professionalism at this clinic made the entire process smooth. From consultation to final placement, it was all handled with care and precision.",
   "As a Canadian citizen, I expect high standards in healthcare. This clinic met every expectation. Best dental clinic in Amritsar for international patients.",
   "Digital X-rays, intraoral cameras, and detailed consultation — it felt like a premium experience. Best dental clinic in Amritsar, technologically speaking.",
   "My 7-year-old had his first dental visit here. It was smooth and fun. Best dental clinic in Amritsar for pediatric care.",
