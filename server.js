@@ -25,9 +25,7 @@ app.use(express.static(__dirname));
 let reviews = [
   "As a Canadian citizen, I expect high standards in healthcare. This clinic met every expectation. Best dental clinic in Amritsar for international patients.",
   "My 7-year-old had his first dental visit here. It was smooth and fun. Best dental clinic in Amritsar for pediatric care.",
-  "I wanted Hollywood-style veneers, and the results were spot-on. Great finish, natural look. Best cosmetic dentist in Amritsar.",
   "I am recommending this place to everyone I know. Their dental work speaks for itself. Best dentist in Amritsar for honest service.",
-  "My daughter had braces placed by Dr. Ankur, and the journey was fantastic. He explained every stage and made her feel comfortable. Now she smiles confidently, thanks to the best orthodontist in Amritsar.",
   "Emergency toothache during my Punjab visit led me here. Immediate relief and fantastic care. I now refer to them as the best dentist in Amritsar.",
   "They offer complete transparency in cost and treatment plan. I never felt misled. Best dental clinic in Amritsar for ethical dentistry.",
   "Got my dental implants done by Dr. Keshvi and I couldn’t be happier. From consultation to completion, everything was professional and painless. I highly recommend her to anyone seeking the best dental implant in Amritsar.",
