@@ -25,13 +25,11 @@ app.use(express.static(__dirname));
 let reviews = [
   "I came from Ranjit Avenue, Amritsar for my dental implant at Dr. Mohindru's Medical & Dental Care. The entire experience was smooth and professional. Truly a trusted name for dental care.",
   "As someone staying near Gumtala Sub Urban, I found this clinic on Google while looking for a “reliable dentist near me.” I’m so glad I chose them for my smile makeover.",
-  "I live in Patti and was looking for the best dentist near Patti for a root canal. Dr. Keshvi handled the procedure painlessly and professionally. Highly recommended.",
   "Came from Sarhali Kalan during my visit from Australia to get full mouth implants. Dr. Keshvi Mohindru did an excellent job. If you're an NRI looking for the best dental implant in Amritsar, this is it.",
   "I’m from Tarn Taran Sahib, currently settled in Canada. Heard a lot about Dr. Mohindru's Medical & Dental Care and finally visited them for aligners. Excellent service and patient care.",
   "Visited from Ranjit Avenue for braces consultation with Dr. Ankur Mohindru. He’s definitely the top orthodontist in Amritsar. Very knowledgeable and kind.",
   "My family lives in Naushehra Pannuan and I came from the UK specifically for smile designing. Dr. Keshvi made it such a comfortable journey. One of the finest dental clinics near Tarn Taran.",
   "Being from Tarn Taran, I struggled to find an experienced dentist locally. I chose Dr. Mohindru’s clinic in Amritsar for zirconia crowns. Very hygienic and modern facility.",
-  "I flew in from New Zealand and stayed with relatives in Harike. I was recommended Dr. Keshvi Mohindru for dental implants. Hands down, one of the best dentists in Amritsar.",
   "I’m from Amritsar and wanted a second opinion for my braces. Dr. Ankur explained everything clearly. The aligner treatment is going great. Highly rated orthodontist in the region.",
   "I searched for “dental implant near Tarn Taran Sahib” and found Dr. Mohindru’s clinic. Had a flawless experience and they truly deliver what they promise.",
   "Living near Gumtala Sub Urban, I had always heard about this clinic. Visited for tooth extraction and the painless technique they use is commendable.",
