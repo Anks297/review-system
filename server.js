@@ -52,8 +52,6 @@ let reviews = [
   "Being from Amritsar, it’s a privilege to have such a skilled dental team in our city. I got my wisdom tooth extracted here — no pain, no hassle.",
   "From Gumtala Sub Urban, I searched for “top orthodontist in Amritsar” and ended up here. I’m in my 4th month of aligners now and already see great results.",
   "Dr. Keshvi restored my confidence with beautiful zirconia crowns. I live near Naushehra Pannuan and now my whole family visits here.",
-  "From Sarhali Kalan, I needed someone reliable for my mother’s dentures. Dr. Mohindru’s clinic was exceptional in terms of care and patience.",
-  "We’re based in Canada but originally from Patti. Every time we visit India, we ensure our dental work is done here. It's become our go-to place.",
   "I was visiting my aunt in Ranjit Avenue and got a scaling session done here. Clean environment, latest tech, and gentle care.",
   "Came from Tarn Taran for smile designing. The clinic is highly organized and they deliver what they promise.",
   "Had a dental emergency during my India trip. I was in Harike and rushed to Dr. Mohindru’s clinic. They handled it professionally.",
