@@ -23,7 +23,6 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname));
 
 let reviews = [
-  "I came from Ranjit Avenue, Amritsar for my dental implant at Dr. Mohindru's Medical & Dental Care. The entire experience was smooth and professional. Truly a trusted name for dental care.",
   "As someone staying near Gumtala Sub Urban, I found this clinic on Google while looking for a “reliable dentist near me.” I’m so glad I chose them for my smile makeover.",
   "Came from Sarhali Kalan during my visit from Australia to get full mouth implants. Dr. Keshvi Mohindru did an excellent job. If you're an NRI looking for the best dental implant in Amritsar, this is it.",
   "I’m from Tarn Taran Sahib, currently settled in Canada. Heard a lot about Dr. Mohindru's Medical & Dental Care and finally visited them for aligners. Excellent service and patient care.",
@@ -31,7 +30,6 @@ let reviews = [
   "My family lives in Naushehra Pannuan and I came from the UK specifically for smile designing. Dr. Keshvi made it such a comfortable journey. One of the finest dental clinics near Tarn Taran.",
   "Being from Tarn Taran, I struggled to find an experienced dentist locally. I chose Dr. Mohindru’s clinic in Amritsar for zirconia crowns. Very hygienic and modern facility.",
   "I’m from Amritsar and wanted a second opinion for my braces. Dr. Ankur explained everything clearly. The aligner treatment is going great. Highly rated orthodontist in the region.",
-  "I searched for “dental implant near Tarn Taran Sahib” and found Dr. Mohindru’s clinic. Had a flawless experience and they truly deliver what they promise.",
   "Living near Gumtala Sub Urban, I had always heard about this clinic. Visited for tooth extraction and the painless technique they use is commendable.",
   "My father, from Sarhali Kalan, got full dentures made here. The fit and comfort are excellent. The clinic is easily one of the top-rated dental clinics near Tarn Taran.",
   "We are NRIs from Canada visiting Tarn Taran Sahib. Found Dr. Mohindru’s Medical & Dental Care for my son’s orthodontic treatment. The results are impressive.",
@@ -57,7 +55,6 @@ let reviews = [
   "Living in Sarhali Kalan, there aren't many dental options, so I chose this clinic in Amritsar. Very glad I did — had a great overall experience.",
   "From Naushehra Pannuan, I found this clinic through Google while searching for best dentist for dental implants near Amritsar. They truly live up to their reputation.",
   "As a Canadian citizen, I expect high standards in healthcare. This clinic met every expectation. Best dental clinic in Amritsar for international patients.",
-  "My 7-year-old had his first dental visit here. It was smooth and fun. Best dental clinic in Amritsar for pediatric care.",
   "Got my dental implants done by Dr. Keshvi and I couldn’t be happier. From consultation to completion, everything was professional and painless. I highly recommend her to anyone seeking the best dental implant in Amritsar.",
   "Visited this clinic for full mouth rehabilitation, and I must say the results exceeded my expectations. The doctors were patient, the technology used was top-notch, and the final outcome was a complete smile transformation. Truly the best dental clinic in Amritsar."
 ];
