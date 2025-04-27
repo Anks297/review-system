@@ -31,7 +31,6 @@ let reviews = [
   "Being from Tarn Taran, I struggled to find an experienced dentist locally. I chose Dr. Mohindru’s clinic in Amritsar for zirconia crowns. Very hygienic and modern facility.",
   "I’m from Amritsar and wanted a second opinion for my braces. Dr. Ankur explained everything clearly. The aligner treatment is going great. Highly rated orthodontist in the region.",
   "Living near Gumtala Sub Urban, I had always heard about this clinic. Visited for tooth extraction and the painless technique they use is commendable.",
-  "My father, from Sarhali Kalan, got full dentures made here. The fit and comfort are excellent. The clinic is easily one of the top-rated dental clinics near Tarn Taran.",
   "We are NRIs from Canada visiting Tarn Taran Sahib. Found Dr. Mohindru’s Medical & Dental Care for my son’s orthodontic treatment. The results are impressive.",
   "I am from Naushehra Pannuan and traveled to Amritsar for a dental bridge. Very happy with Dr. Keshvi’s detailed work. Clinic is very clean and modern.",
   "From Ranjit Avenue, I had been searching for an expert dental clinic near me. Came across Dr. Mohindru's profile and opted for a smile designing package. Loved the final result.",
