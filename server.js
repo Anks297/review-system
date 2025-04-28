@@ -46,7 +46,6 @@ let reviews = [
   "My brother and I got our braces done here during our stay in Ranjit Avenue. Dr. Ankur is very kind and explains each step.",
   "Being from Amritsar, it’s a privilege to have such a skilled dental team in our city. I got my wisdom tooth extracted here — no pain, no hassle.",
   "From Gumtala Sub Urban, I searched for “top orthodontist in Amritsar” and ended up here. I’m in my 4th month of aligners now and already see great results.",
-  "Dr. Keshvi restored my confidence with beautiful zirconia crowns. I live near Naushehra Pannuan and now my whole family visits here.",
   "I was visiting my aunt in Ranjit Avenue and got a scaling session done here. Clean environment, latest tech, and gentle care.",
   "Came from Tarn Taran for smile designing. The clinic is highly organized and they deliver what they promise.",
   "Had a dental emergency during my India trip. I was in Harike and rushed to Dr. Mohindru’s clinic. They handled it professionally.",
@@ -55,7 +54,6 @@ let reviews = [
   "From Naushehra Pannuan, I found this clinic through Google while searching for best dentist for dental implants near Amritsar. They truly live up to their reputation.",
   "As a Canadian citizen, I expect high standards in healthcare. This clinic met every expectation. Best dental clinic in Amritsar for international patients.",
   "Got my dental implants done by Dr. Keshvi and I couldn’t be happier. From consultation to completion, everything was professional and painless. I highly recommend her to anyone seeking the best dental implant in Amritsar.",
-  "Visited this clinic for full mouth rehabilitation, and I must say the results exceeded my expectations. The doctors were patient, the technology used was top-notch, and the final outcome was a complete smile transformation. Truly the best dental clinic in Amritsar."
 ];
 
 app.get('/get-review', (req, res) => {
