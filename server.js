@@ -23,7 +23,6 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname));
 
 let reviews = [
-  "As someone staying near Gumtala Sub Urban, I found this clinic on Google while looking for a “reliable dentist near me.” I’m so glad I chose them for my smile makeover.",
   "Came from Sarhali Kalan during my visit from Australia to get full mouth implants. Dr. Keshvi Mohindru did an excellent job. If you're an NRI looking for the best dental implant in Amritsar, this is it.",
   "I’m from Tarn Taran Sahib, currently settled in Canada. Heard a lot about Dr. Mohindru's Medical & Dental Care and finally visited them for aligners. Excellent service and patient care.",
   "Visited from Ranjit Avenue for braces consultation with Dr. Ankur Mohindru. He’s definitely the top orthodontist in Amritsar. Very knowledgeable and kind.",
@@ -48,7 +47,6 @@ let reviews = [
   "Came from Tarn Taran for smile designing. The clinic is highly organized and they deliver what they promise.",
   "Had a dental emergency during my India trip. I was in Harike and rushed to Dr. Mohindru’s clinic. They handled it professionally.",
   "I’m from Gumtala, and I can confidently say this is the most advanced dental clinic near me. Their patient handling is excellent.",
-  "From Naushehra Pannuan, I found this clinic through Google while searching for best dentist for dental implants near Amritsar. They truly live up to their reputation.",
   "As a Canadian citizen, I expect high standards in healthcare. This clinic met every expectation. Best dental clinic in Amritsar for international patients.",
 ];
 
