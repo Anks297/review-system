@@ -25,8 +25,6 @@ app.use(express.static(__dirname));
 let reviews = [
   "Came from Sarhali Kalan during my visit from Australia to get full mouth implants. Dr. Keshvi Mohindru did an excellent job. If you're an NRI looking for the best dental implant in Amritsar, this is it.",
   "I’m from Tarn Taran Sahib, currently settled in Canada. Heard a lot about Dr. Mohindru's Medical & Dental Care and finally visited them for aligners. Excellent service and patient care.",
-  "Visited from Ranjit Avenue for braces consultation with Dr. Ankur Mohindru. He’s definitely the top orthodontist in Amritsar. Very knowledgeable and kind.",
-  "My family lives in Naushehra Pannuan and I came from the UK specifically for smile designing. Dr. Keshvi made it such a comfortable journey. One of the finest dental clinics near Tarn Taran.",
   "Being from Tarn Taran, I struggled to find an experienced dentist locally. I chose Dr. Mohindru’s clinic in Amritsar for zirconia crowns. Very hygienic and modern facility.",
   "I’m from Amritsar and wanted a second opinion for my braces. Dr. Ankur explained everything clearly. The aligner treatment is going great. Highly rated orthodontist in the region.",
   "Living near Gumtala Sub Urban, I had always heard about this clinic. Visited for tooth extraction and the painless technique they use is commendable.",
@@ -36,7 +34,6 @@ let reviews = [
   "Got my teeth capped at Dr. Mohindru's Medical & Dental Care. I’m from Tarn Taran and was referred by an NRI friend who got his treatment here during his India visit.",
   "I came from Amritsar city, specifically looking for Damon braces specialist. Dr. Ankur gave me detailed insights and flexible appointments. Very satisfied.",
   "Visited from Ranjit Avenue for a dental cleaning and whitening session. The place was very professional, and the equipment is top-notch.",
-  "As an NRI from New Zealand, I was skeptical about getting implants in India. But Dr. Keshvi's work surpassed all expectations. Stayed at my aunt’s house in Sarhali Kalan.",
   "We live in Naushehra Pannuan and always prefer Dr. Mohindru’s clinic for any dental work. From kids to elders, everyone is satisfied.",
   "Traveled from Patti to Amritsar after reading reviews. The clinic ambiance, cleanliness, and personal care were amazing.",
   "From Tarn Taran Sahib, I had visited 3 other dentists before someone recommended Dr. Mohindru's Medical & Dental Care. Truly lives up to the praise.",
