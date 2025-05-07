@@ -23,7 +23,6 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname));
 
 let reviews = [
-  "Came from Sarhali Kalan during my visit from Australia to get full mouth implants. Dr. Keshvi Mohindru did an excellent job. If you're an NRI looking for the best dental implant in Amritsar, this is it.",
   "Being from Tarn Taran, I struggled to find an experienced dentist locally. I chose Dr. Mohindru’s clinic in Amritsar for zirconia crowns. Very hygienic and modern facility.",
   "Living near Gumtala Sub Urban, I had always heard about this clinic. Visited for tooth extraction and the painless technique they use is commendable.",
   "Got my teeth capped at Dr. Mohindru's Medical & Dental Care. I’m from Tarn Taran and was referred by an NRI friend who got his treatment here during his India visit.",
