@@ -28,7 +28,6 @@ let reviews = [
   "Living near Gumtala Sub Urban, I had always heard about this clinic. Visited for tooth extraction and the painless technique they use is commendable.",
   "Got my teeth capped at Dr. Mohindru's Medical & Dental Care. I’m from Tarn Taran and was referred by an NRI friend who got his treatment here during his India visit.",
   "I came from Amritsar city, specifically looking for Damon braces specialist. Dr. Ankur gave me detailed insights and flexible appointments. Very satisfied.",
-  "Visited from Ranjit Avenue for a dental cleaning and whitening session. The place was very professional, and the equipment is top-notch.",
   "We live in Naushehra Pannuan and always prefer Dr. Mohindru’s clinic for any dental work. From kids to elders, everyone is satisfied.",
   "Traveled from Patti to Amritsar after reading reviews. The clinic ambiance, cleanliness, and personal care were amazing.",
   "From Tarn Taran Sahib, I had visited 3 other dentists before someone recommended Dr. Mohindru's Medical & Dental Care. Truly lives up to the praise.",
@@ -36,7 +35,6 @@ let reviews = [
   "Came from Tarn Taran for smile designing. The clinic is highly organized and they deliver what they promise.",
   "Had a dental emergency during my India trip. I was in Harike and rushed to Dr. Mohindru’s clinic. They handled it professionally.",
   "I’m from Gumtala, and I can confidently say this is the most advanced dental clinic near me. Their patient handling is excellent.",
-  "As a Canadian citizen, I expect high standards in healthcare. This clinic met every expectation. Best dental clinic in Amritsar for international patients.",
 ];
 
 app.get('/get-review', (req, res) => {
