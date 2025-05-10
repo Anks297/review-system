@@ -40,7 +40,6 @@ let reviews = [
   "Dr. Keshvi handled my case personally. I got full-mouth implants and every step was meticulously planned. Best dental implant expert in Amritsar.",
   "Very efficient appointment system. I’ve never had to wait. Their punctuality and professionalism make them the best dentist in Amritsar.",
   "The orthodontic treatment plan was so clear and well-executed. I was informed about every stage. Dr. Ankur is the best orthodontist in Amritsar for sure.",
-  "Gum bleeding and sensitivity were bothering me for years. One sitting here changed everything. Best dental clinic in Amritsar for gum treatment.",
   "I highly recommend this place for seniors. My mother got dentures and the team ensured perfect fit and comfort. Best dental clinic in Amritsar for elderly care.",
   "Their sterilization protocols gave me confidence post-COVID. No compromise on hygiene. That’s why they’re called the best dentist in Amritsar.",
   "I had a fractured tooth and was worried about replacement. They suggested an implant and it’s been great. Best dental implant in Amritsar!",
@@ -49,7 +48,6 @@ let reviews = [
   "As an NRI visiting from New Zealand, I was hesitant. But their transparent treatment plans and outstanding execution proved why they’re the best dental clinic in Amritsar.",
   "I was very concerned about the look of my teeth. After cosmetic contouring and whitening here, I can’t stop smiling. Best dentist in Amritsar for aesthetics.",
   "For kids and adults alike, this clinic provides equal attention. Got fluoride treatment for my son and it was very smooth. Best dental clinic in Amritsar for families.",
-  "If you want painless dentistry, come here. I didn’t even feel the injection during my root canal. Dr. Keshvi is the best dentist in Amritsar for sensitive.",
 ];
 
 app.get('/get-review', (req, res) => {
