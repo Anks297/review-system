@@ -27,7 +27,6 @@ let reviews = [
   "My teenage son had his braces done here, and the results are spectacular. Dr. Ankur is truly the best orthodontist in Amritsar for young patients.",
   "The hygiene and equipment are world-class. I got zirconia crowns and they look just like natural teeth. This is the best dental implant service in Amritsar.",
   "After years of dental anxiety, I finally found a place where I feel at ease. The doctors and staff are kind, professional, and gentle. Best dentist in Amritsar for anxious patients.",
-  "My daughter had two cavities, and the way the pediatric dentist handled it was amazing. This is definitely the best dental clinic in Amritsar for children.",
   "I was looking for a dentist who could fix my bite and speech issue. Dr. Keshvi diagnosed it instantly and resolved it with prosthetics. Best dentist in Amritsar for prosthodontics.",
   "Highly recommend for anyone seeking full mouth rehab. My treatment included implants, capping, and veneers — all done under one roof at the best dental clinic in Amritsar.",
   "The Damon braces I got from here were almost invisible and gave me the desired results in less than 12 months. Best orthodontist in Amritsar for modern braces.",
