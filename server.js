@@ -34,7 +34,6 @@ let reviews = [
   "I visited from Australia and needed a complete dental checkup. From X-rays to polishing, everything was done with utmost professionalism. Best dental clinic in Amritsar for NRIs.",
   "I used to feel embarrassed about my teeth, but after visiting this clinic for smile designing, I feel like a new person. Truly the best dentist in Amritsar for transformations.",
   "Got zirconia caps on six teeth and they feel absolutely natural. The work is precise, and the staff is extremely warm. Best dental implant treatment in Amritsar.",
-  "I had multiple root canals done and didn’t feel any pain. Clean environment, updated equipment — definitely the best dental clinic in Amritsar for endodontics.",
   "Best dental clinic in Amritsar without a doubt. They explained every procedure, showed 3D scans, and made me feel safe throughout my treatment.",
   "Very efficient appointment system. I’ve never had to wait. Their punctuality and professionalism make them the best dentist in Amritsar.",
   "The orthodontic treatment plan was so clear and well-executed. I was informed about every stage. Dr. Ankur is the best orthodontist in Amritsar for sure.",
