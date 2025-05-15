@@ -23,9 +23,7 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname));
 
 let reviews = [
-  "I came here for a dental emergency while visiting Amritsar from Canada. The staff acted promptly, and the treatment was flawless. Best dental care I’ve received.",
   "My teenage son had his braces done here, and the results are spectacular. Dr. Ankur is truly the best orthodontist in Amritsar for young patients.",
-  "The hygiene and equipment are world-class. I got zirconia crowns and they look just like natural teeth. This is the best dental implant service in Amritsar.",
   "After years of dental anxiety, I finally found a place where I feel at ease. The doctors and staff are kind, professional, and gentle. Best dentist in Amritsar for anxious patients.",
   "I was looking for a dentist who could fix my bite and speech issue. Dr. Keshvi diagnosed it instantly and resolved it with prosthetics. Best dentist in Amritsar for prosthodontics.",
   "Highly recommend for anyone seeking full mouth rehab. My treatment included implants, capping, and veneers — all done under one roof at the best dental clinic in Amritsar.",
@@ -37,7 +35,6 @@ let reviews = [
   "Best dental clinic in Amritsar without a doubt. They explained every procedure, showed 3D scans, and made me feel safe throughout my treatment.",
   "Very efficient appointment system. I’ve never had to wait. Their punctuality and professionalism make them the best dentist in Amritsar.",
   "The orthodontic treatment plan was so clear and well-executed. I was informed about every stage. Dr. Ankur is the best orthodontist in Amritsar for sure.",
-  "I highly recommend this place for seniors. My mother got dentures and the team ensured perfect fit and comfort. Best dental clinic in Amritsar for elderly care.",
   "Their sterilization protocols gave me confidence post-COVID. No compromise on hygiene. That’s why they’re called the best dentist in Amritsar.",
   "I had a fractured tooth and was worried about replacement. They suggested an implant and it’s been great. Best dental implant in Amritsar!",
   "The confidence I gained after getting braces here is priceless. Clean clinic, courteous staff, and timely follow-ups. Best orthodontist in Amritsar.",
