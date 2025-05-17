@@ -40,7 +40,6 @@ let reviews = [
   "The confidence I gained after getting braces here is priceless. Clean clinic, courteous staff, and timely follow-ups. Best orthodontist in Amritsar.",
   "I’ve tried multiple clinics before, but this is the only one I trust now. Excellent in every way. Best dental clinic in Amritsar — no exaggeration.",
   "As an NRI visiting from New Zealand, I was hesitant. But their transparent treatment plans and outstanding execution proved why they’re the best dental clinic in Amritsar.",
-  "For kids and adults alike, this clinic provides equal attention. Got fluoride treatment for my son and it was very smooth. Best dental clinic in Amritsar for families.",
 ];
 
 app.get('/get-review', (req, res) => {
