@@ -31,7 +31,6 @@ let reviews = [
   "I used to feel embarrassed about my teeth, but after visiting this clinic for smile designing, I feel like a new person. Truly the best dentist in Amritsar for transformations.",
   "Got zirconia caps on six teeth and they feel absolutely natural. The work is precise, and the staff is extremely warm. Best dental implant treatment in Amritsar.",
   "Best dental clinic in Amritsar without a doubt. They explained every procedure, showed 3D scans, and made me feel safe throughout my treatment.",
-  "Very efficient appointment system. I’ve never had to wait. Their punctuality and professionalism make them the best dentist in Amritsar.",
   "I had a fractured tooth and was worried about replacement. They suggested an implant and it’s been great. Best dental implant in Amritsar!",
   "I’ve tried multiple clinics before, but this is the only one I trust now. Excellent in every way. Best dental clinic in Amritsar — no exaggeration.",
   "As an NRI visiting from New Zealand, I was hesitant. But their transparent treatment plans and outstanding execution proved why they’re the best dental clinic in Amritsar.",
