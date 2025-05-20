@@ -25,7 +25,6 @@ app.use(express.static(__dirname));
 let reviews = [
   "After years of dental anxiety, I finally found a place where I feel at ease. The doctors and staff are kind, professional, and gentle. Best dentist in Amritsar for anxious patients.",
   "Highly recommend for anyone seeking full mouth rehab. My treatment included implants, capping, and veneers — all done under one roof at the best dental clinic in Amritsar.",
-  "The Damon braces I got from here were almost invisible and gave me the desired results in less than 12 months. Best orthodontist in Amritsar for modern braces.",
   "I visited from Australia and needed a complete dental checkup. From X-rays to polishing, everything was done with utmost professionalism. Best dental clinic in Amritsar for NRIs.",
   "Got zirconia caps on six teeth and they feel absolutely natural. The work is precise, and the staff is extremely warm. Best dental implant treatment in Amritsar.",
   "Best dental clinic in Amritsar without a doubt. They explained every procedure, showed 3D scans, and made me feel safe throughout my treatment.",
