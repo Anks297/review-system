@@ -35,7 +35,6 @@ let reviews = [
   "Teeth grinding issue resolved with a perfectly fitting night guard. They’re the best dental clinic in Amritsar for bite-related problems.",
   "Amazing experience! The best dental implant clinic in Amritsar with trained staff and international-level hygiene standards.",
   "Their smile design consultation was thorough and artistic. I now have the smile I always dreamed of. Best dentist in Amritsar for cosmetic work.",
-  "My wife and I got teeth whitening done together and it was such a pleasant experience. This is the best dental clinic in Amritsar for couples and families.",
   "Dr. Keshvi is meticulous with her work. My full mouth implants feel so natural now. Best dental implant in Amritsar for sure.",
   "Quick service, great results, and reasonable pricing — definitely the best dental clinic in Amritsar for all types of dental issues.",
   "I was treated for gum recession, and their laser treatment worked wonders. Best dental clinic in Amritsar for periodontal issues.",
