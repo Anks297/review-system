@@ -23,7 +23,6 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname));
 
 let reviews = [
-  "My bite correction and alignment were handled with precision. Dr. Ankur is the best orthodontist in Amritsar for jaw-related corrections.",
   "From implants to capping, I’ve had multiple procedures done here. The consistency in quality proves they are the best dental clinic in Amritsar.",
   "I used to hide my smile in photos. Thanks to their smile makeover program, I now feel confident. Truly the best dentist in Amritsar for cosmetic improvements.",
   "Visited from New Zealand for zirconia crown replacement. Efficient, hygienic, and aesthetic — best dental implant in Amritsar.",
@@ -37,7 +36,6 @@ let reviews = [
   "Their smile design consultation was thorough and artistic. I now have the smile I always dreamed of. Best dentist in Amritsar for cosmetic work.",
   "Dr. Keshvi is meticulous with her work. My full mouth implants feel so natural now. Best dental implant in Amritsar for sure.",
   "Quick service, great results, and reasonable pricing — definitely the best dental clinic in Amritsar for all types of dental issues.",
-  "I was treated for gum recession, and their laser treatment worked wonders. Best dental clinic in Amritsar for periodontal issues.",
   "Their orthodontic work is subtle and efficient. My smile improved drastically without discomfort. Best orthodontist in Amritsar, without a doubt.",
   "You’ll find transparency, hygiene, and world-class care here. Best dental clinic in Amritsar by far!",
   "Got braces at 40 and still had a wonderful journey. Dr. Ankur is a gem and the best orthodontist in Amritsar for adults.",
