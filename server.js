@@ -36,7 +36,6 @@ let reviews = [
   "Their smile design consultation was thorough and artistic. I now have the smile I always dreamed of. Best dentist in Amritsar for cosmetic work.",
   "Dr. Keshvi is meticulous with her work. My full mouth implants feel so natural now. Best dental implant in Amritsar for sure.",
   "Quick service, great results, and reasonable pricing — definitely the best dental clinic in Amritsar for all types of dental issues.",
-  "Their orthodontic work is subtle and efficient. My smile improved drastically without discomfort. Best orthodontist in Amritsar, without a doubt.",
   "You’ll find transparency, hygiene, and world-class care here. Best dental clinic in Amritsar by far!",
   "Got braces at 40 and still had a wonderful journey. Dr. Ankur is a gem and the best orthodontist in Amritsar for adults.",
   "Can’t believe how well my implants turned out. Dr. Keshvi is amazing — best dental implant expert in Amritsar!",
