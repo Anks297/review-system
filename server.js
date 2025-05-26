@@ -26,7 +26,6 @@ let reviews = [
   "From implants to capping, I’ve had multiple procedures done here. The consistency in quality proves they are the best dental clinic in Amritsar.",
   "Visited from New Zealand for zirconia crown replacement. Efficient, hygienic, and aesthetic — best dental implant in Amritsar.",
   "Pediatric dental care here is superb. My daughter didn’t even cry once during her extraction. Best dentist in Amritsar for kids.",
-  "The use of 3D scanning and digital X-rays shows why this is the most advanced and best dental clinic in Amritsar.",
   "Got a complete oral health checkup and polishing. Felt fresh and clean. I now understand why it’s called the best dentist in Amritsar.",
   "My braces journey was smooth, comfortable, and result-oriented. All thanks to the best orthodontist in Amritsar, Dr. Ankur.",
   "Every treatment is explained in detail, and they offer multiple options. Best dental clinic in Amritsar for informed care.",
@@ -40,7 +39,6 @@ let reviews = [
   "I underwent a full smile makeover here, and I can't believe the results. The clinic exceeded my expectations in both aesthetics and comfort. Absolutely the best dental clinic in Amritsar for cosmetic dentistry.",
   "From consultation to treatment, everything was seamless. I had multiple fillings, and each was color-matched so well. This place deserves to be called the best dentist in Amritsar.",
   "I visited from the UK to get full mouth dental implants done. Dr. Keshvi made the process so comfortable and stress-free. No doubt, this is the best dental implant clinic in Amritsar.",
-  "Dr. Ankur fixed my misaligned teeth with Invisalign, and now I have a perfectly aligned smile. Truly the best orthodontist in Amritsar with a patient-centered approach.",
   "After months of hesitation, I finally went ahead with veneers, and I’m in love with my smile now. Best dentist in Amritsar for cosmetic treatments, hands down!",
   "I had badly stained teeth due to smoking. Their teeth whitening procedure restored my confidence. Without a doubt, the best dental clinic in Amritsar."
 ];
