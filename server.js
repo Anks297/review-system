@@ -26,9 +26,7 @@ let reviews = [
   "From implants to capping, I’ve had multiple procedures done here. The consistency in quality proves they are the best dental clinic in Amritsar.",
   "Pediatric dental care here is superb. My daughter didn’t even cry once during her extraction. Best dentist in Amritsar for kids.",
   "You’ll find transparency, hygiene, and world-class care here. Best dental clinic in Amritsar by far!",
-  "Can’t believe how well my implants turned out. Dr. Keshvi is amazing — best dental implant expert in Amritsar!",
   "I underwent a full smile makeover here, and I can't believe the results. The clinic exceeded my expectations in both aesthetics and comfort. Absolutely the best dental clinic in Amritsar for cosmetic dentistry.",
-  "From consultation to treatment, everything was seamless. I had multiple fillings, and each was color-matched so well. This place deserves to be called the best dentist in Amritsar.",
   "I visited from the UK to get full mouth dental implants done. Dr. Keshvi made the process so comfortable and stress-free. No doubt, this is the best dental implant clinic in Amritsar.",
   "I had badly stained teeth due to smoking. Their teeth whitening procedure restored my confidence. Without a doubt, the best dental clinic in Amritsar."
 ];
