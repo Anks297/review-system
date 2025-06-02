@@ -31,7 +31,6 @@ let reviews = [
   "Dr. Keshvi Mohindru did a fantastic job on my full mouth dental implants. She was gentle and thorough, making the whole experience comfortable. I can confidently say this is the best dental clinic in Amritsar.",
   "Dr. Ankur Mohindru did a remarkable job with my wisdom tooth extraction. The procedure was quick, painless, and professional. Best dentist in Amritsar by far! I’d recommend him to anyone with dental issues.",
   "Dr. Ankur at Dr. Mohindru's Medical & Dental Care is exceptional. I got braces and the results are fantastic. The clinic is clean, and the service is prompt. Definitely the best dental clinic in Amritsar for orthodontics!",
-  "I had a wonderful experience with smile designing done by Dr. Keshvi. She truly cares about her patients, and her work speaks for itself. Best dentist in Amritsar for anyone looking to enhance their smile!",
   "Dr. Ankur Mohindru is a great dentist! My teeth cleaning and whitening sessions were thorough, and the results are amazing. If you want the best dentist in Amritsar, this is the place to go!",
   "Dr. Keshvi took care of my gum treatment and was so gentle throughout. My gums feel so much healthier. The clinic’s facilities are modern, making it the best dental clinic in Amritsar for any dental care."
 ];
