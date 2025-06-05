@@ -23,10 +23,8 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname));
 
 let reviews = [
-  "Dr. Ankur Mohindru is hands down the best dentist in Amritsar! I was extremely nervous about getting my dental implants, but he made the whole process so smooth. The clinic is well-equipped, and the staff is friendly. Highly recommend for any dental needs!",
   "Visited Dr. Mohindru's Medical & Dental Care for a root canal with Dr. Keshvi Mohindru. I had zero pain, and she explained every step with patience. Truly the best dental clinic in Amritsar. So grateful to have found them!",
   "If you need a dental implant specialist, go to Dr. Ankur. The procedure was seamless, and the clinic uses the latest technology. I can say without a doubt he's the best dentist in Amritsar!",
-  "Dr. Ankur at Dr. Mohindru's Medical & Dental Care is exceptional. I got braces and the results are fantastic. The clinic is clean, and the service is prompt. Definitely the best dental clinic in Amritsar for orthodontics!",
   "Dr. Ankur Mohindru is an incredible dentist! My dental implant procedure was smooth, and he made me feel at ease throughout. Truly the best dentist in Amritsar for implants!",
   "I visited Dr. Keshvi Mohindru for a smile makeover. The results are amazing, and I get compliments all the time. Best dental clinic in Amritsar without a doubt!",
   "Dr. Ankur handled my wisdom tooth extraction perfectly. The process was fast, and I experienced minimal discomfort. Highly recommend him if you're looking for the best dentist in Amritsar.",
