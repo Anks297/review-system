@@ -40,7 +40,6 @@ let reviews = [
   "Dr. Ankur was fantastic during my dental extraction. It was painless, and he made sure I was comfortable. Best dentist in Amritsar for extractions.",
   "Dr. Keshvi performed my crown placement, and it feels great. The staff is welcoming, and the clinic is very clean. I would recommend this as the best dental clinic in Amritsar.",
   "Dr. Ankur treated my cavity and did a fantastic job. The procedure was quick, and I felt no discomfort. Definitely the best dentist in Amritsar for filling treatments!",
-  "Dr. Ankur’s approach to root canals is so professional. I felt relaxed throughout, and the results are excellent. Hands down the best dentist in Amritsar!",
   "I was impressed by Dr. Keshvi’s work on my teeth shaping. The results look natural and beautiful. Best dental clinic in Amritsar if you want detailed work!",
   "Dr. Ankur helped me with my dental pain, and he was very kind and thorough in his examination. Really the best dentist in Amritsar if you need immediate relief!",
   "I did my smile correction with Dr. Keshvi, and it was a wonderful experience. I’m so happy with the results. This is definitely the best dental clinic in Amritsar for cosmetic dentistry!"
