@@ -28,7 +28,6 @@ let reviews = [
   "Traveled from Melbourne for my smile makeover. The attention to detail and patient care I received here was better than anything back home. Best dental clinic in Amritsar for NRIs hands down.",
   "My full mouth rehabilitation was done with extreme precision. Each implant and crown was perfectly aligned, and the aesthetics are flawless. This clinic sets a benchmark for quality dental care in Amritsar.",
   "Wisdom tooth extraction was done so smoothly, I didn’t even realize it was over. No swelling, no pain, just great expertise.",
-  "Each visit to this clinic is pleasant. Whether it's a routine cleaning or a complex procedure, the care and hygiene standards are consistently excellent.",
   "Being an NRI, I was skeptical about dental care in India. But after visiting this clinic in Amritsar, I can confidently say it offers world-class services. My dental implants were done perfectly and painlessly.",
   "I came all the way from Australia to get full mouth zirconia crowns done here. I’m extremely happy with the precision and aesthetics. Truly the best dental implant in Amritsar.",
   "The clinic is clean, staff are professional, and the results of my root canal treatment exceeded expectations. It’s rare to find such a smooth and painless experience. Highly recommend for anyone with dental issues.",
@@ -38,7 +37,6 @@ let reviews = [
   "The team here was so understanding and supportive. I came in with extreme dental anxiety, but their calm and professional approach made the entire procedure feel effortless. My smile is brighter and healthier, and I couldn’t be more thankful.",
   "Had a fantastic experience getting my teeth aligned through Damon braces. The transformation was smoother than I anticipated. I'm glad I found the best orthodontist in Amritsar!",
   "Being an NRI from the UK, I was skeptical about getting dental implants in India, but this clinic changed my perspective entirely. The level of hygiene, technology, and expertise was better than many places I’ve visited abroad.",
-  "I walked into the clinic unsure about what I needed, but walked out with a clear treatment plan and a lot of confidence. They don’t upsell or pressure you. They simply provide the best dental care in Amritsar."
 ];
 
 app.get('/get-review', (req, res) => {
