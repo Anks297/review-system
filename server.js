@@ -35,8 +35,6 @@ let reviews = [
   "I was nervous about getting dental implants, but the entire procedure was surprisingly painless. From consultation to aftercare, everything was well-organized and smooth. Top dental implant service in Amritsar!",
   "If you're looking for the best dental clinic in Amritsar, look no further. The hospitality, hygiene standards, and advanced technology used here are unmatched. I came for cleaning and ended up signing up for a full smile transformation.",
   "The team here was so understanding and supportive. I came in with extreme dental anxiety, but their calm and professional approach made the entire procedure feel effortless. My smile is brighter and healthier, and I couldn’t be more thankful.",
-  "Had a fantastic experience getting my teeth aligned through Damon braces. The transformation was smoother than I anticipated. I'm glad I found the best orthodontist in Amritsar!",
-  "Being an NRI from the UK, I was skeptical about getting dental implants in India, but this clinic changed my perspective entirely. The level of hygiene, technology, and expertise was better than many places I’ve visited abroad.",
 ];
 
 app.get('/get-review', (req, res) => {
