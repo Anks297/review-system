@@ -26,7 +26,6 @@ let reviews = [
   "My child needed pediatric dental care and this clinic was a blessing. The staff was gentle and the play area made the visit enjoyable for my son. Great place for families.",
   "My full mouth rehabilitation was done with extreme precision. Each implant and crown was perfectly aligned, and the aesthetics are flawless. This clinic sets a benchmark for quality dental care in Amritsar.",
   "After visiting several dentists, I finally found the best dentist in Amritsar who understood my concerns. The root canal treatment was painless and professional.",
-  "Dr. Keshvi transformed my smile through dental implants. Her expertise and use of advanced equipment make her one of the best dental implant specialists in Amritsar.",
   "I was visiting from the UK and needed urgent dental care. This clinic not only accommodated me immediately but also provided the best dental treatment I’ve ever had in India.",
   "Best dental clinic in Amritsar for NRIs! The zirconia crowns I got here are perfect in every way. Highly recommended for those looking for international standards.",
   "Had a full mouth rehabilitation done here. The results are phenomenal and worth every rupee. Truly the best dentist in Amritsar for major dental makeovers.",
@@ -39,7 +38,6 @@ let reviews = [
   "If you’re an NRI looking for quality dental care, this is the place. From sterilization to final results, it’s the best dental clinic in Amritsar.",
   "I got my braces removed after 18 months and I can’t stop smiling. Thanks to the best orthodontist in Amritsar, my teeth look perfect!",
   "If you’re nervous about dental treatments, this is the place for you. Their compassionate approach makes them the best dentist in Amritsar.",
-  "Traveled from Australia just to get my smile corrected here. Worth every bit of travel and money. The best dental clinic in Amritsar, hands down.",
   "Being an NRI, I was skeptical about dental care in India. But after visiting this clinic in Amritsar, I can confidently say it offers world-class services. My dental implants were done perfectly and painlessly.",
 ];
 
