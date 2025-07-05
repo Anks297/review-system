@@ -23,7 +23,6 @@ app.use((req, res, next) => {
 app.use(express.static(__dirname));
 
 let reviews = [
-  "My child needed pediatric dental care and this clinic was a blessing. The staff was gentle and the play area made the visit enjoyable for my son. Great place for families.",
   "My full mouth rehabilitation was done with extreme precision. Each implant and crown was perfectly aligned, and the aesthetics are flawless. This clinic sets a benchmark for quality dental care in Amritsar.",
   "After visiting several dentists, I finally found the best dentist in Amritsar who understood my concerns. The root canal treatment was painless and professional.",
   "I was visiting from the UK and needed urgent dental care. This clinic not only accommodated me immediately but also provided the best dental treatment I’ve ever had in India.",
