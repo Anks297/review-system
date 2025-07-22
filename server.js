@@ -52,13 +52,11 @@ let reviews = [
 
 app.get('/get-review', (req, res) => {
   if (reviews.length === 0) {
-    return res.json({ review: "No reviews left!" });
+    return res.json({ review: "No reviews left" });
   }
-  const randomIndex = Math.floor(Math.random() *
-   reviews.length);
-  const selectedReview = reviews[randomIndex];
-  reviews.splice(randomIndex, 1);
-  res.json({ review: selectedReview });
+  const index = Math.floor(Math.random() * reviews.length);
+  const selected = reviews[index];
+  res.json({ review: selected }); // Removed the splice line
 });
 
 app.get('/', (req, res) => {
